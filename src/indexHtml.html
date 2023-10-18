@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java and HTML Example</title>
+    <script>
+        async function fetchData() {
+            const response = await fetch('http://localhost:8080/hello');
+            const data = await response.text();
+            document.getElementById('message').innerText = data;
+        }
+    </script>
+</head>
+<body>
+    <h1>Java and HTML Example</h1> title h1-h6
+    <button onclick="fetchData()">Fetch Data</button>
+    <p id="message"></p>
+</body>
+</html>
