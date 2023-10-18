@@ -209,6 +209,7 @@ git - systym contol version:
     - connect other developers
     - command (sync)
     - all download (*)
+    - *bug
 
 
 
